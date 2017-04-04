@@ -1,0 +1,30 @@
+/*浮动*/
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+	overflow:hidden;
+	height:0;
+	visibility:0;
+}
+
+
+/*重置样式*/
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dd,input,fieldset,legend{
+	margin:0;
+	padding:0;
+}
+i,b,em{
+	font-weight:normal;
+	font-style:normal;
+}
+input{
+	border:0;
+	outline:none;
+}
