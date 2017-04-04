@@ -1,0 +1,1234 @@
+.content{
+	width:100%;
+}
+.content .bansea{
+	width:1190px;
+	margin:0 auto;
+}
+.content .bansea .searcher{
+	width:682px;
+	height:296px;
+	border:2px solid #e3e6ea;
+}
+.searcher .nav li a{
+	display:block;
+	width:89px;
+	height:40px;
+	background-color:#4e5662;
+	font:14px/40px "microsoft yahei";
+	color:#fff;
+	text-indent:10px;
+	border-bottom:1px solid #484f5b;
+}
+.searcher .nav li a.end{
+	height:50px;
+	border:0;
+	line-height:50px;
+}
+.searcher .nav li a.first,.searcher .nav li a:hover{
+	background-color:#fff;
+	color:#5db4f0;
+}
+.searcher .nav_t{
+	height:42px;
+	width:573px;
+	padding-left:20px;
+	border-bottom:1px solid #e3e6ea;
+	position:relative;
+}
+.searcher .nav_t li{
+	padding:14px 0;
+}
+.searcher .nav_t a{
+	float:left;
+	font:14px/14px "microsoft yahei";
+	color:#5f727f;
+	padding:0 11px;
+	border-right:1px solid #dcdde0;
+}
+.searcher .nav_t .end a{
+	border:0;
+}
+.searcher .nav_t b{
+	height:3px;
+	width:40px;
+	position:absolute;
+	background-color:#5eb5f1;
+	bottom:-1px;
+	left:25px;
+}
+.searcher form .radio{
+	padding:21px 23px 8px 25px;
+	width:545px;
+	height:13px;
+	font:13px/13px "宋体";
+	color:#4e5662;
+}
+.searcher form .radio .path{
+	margin-right:20px;
+}
+/*ie7兼容*/
+.searcher form .radio .path input{
+	height:13px;
+}
+.searcher form .radio .back input{
+	height:13px;
+}
+.searcher form .radio label{
+	margin-left:7px;
+}
+.searcher form .radio .txt a{
+	color:#355976;
+}
+form .text_l input,form .text_r input{
+	width:258px;
+	height:28px;
+	border:1px solid #c7d1e4;
+	border-radius:3px;
+	font-size:14px;
+	font-family: "microsoft yahei", sans-serif;
+	line-height:28px;
+	padding-left:4px;
+	margin-bottom:10px;
+	color:#9fa4aa;
+}
+form .text_l .beijing input{
+	color:#4e5662;
+}
+form .text_l,form .text_r{
+	font:12px/20px "宋体";
+	color:#4e5662;
+}
+form .text_l{
+	padding-left:25px;
+}
+form .text_r{
+	padding-right:12px;
+}
+form .change{
+	width:25px;
+	height:65px;
+	margin-top:35px;
+	background:url(../images/icon_sprite.png) no-repeat 0 -76px;
+}
+form .change:hover{
+	background-position:-25px -76px;
+}
+form .safe{
+	padding:0 22px;
+	width:549px;
+	height:57px;
+}
+form .safe a{
+	margin-top:13px;
+	width:226px;
+	height:21px;
+	background:url(../images/icon_sprite.png) no-repeat -79px -87px;
+}
+form .safe input{
+	width:160px;
+	height:36px;
+	background-color:#63b8f0;
+	font:18px/36px "microsoft yahei";
+	color:#fff;
+	text-align:center;
+	margin-top:4px;
+	outline:none;
+	cursor:pointer;
+}
+
+form .nav_b{
+	height:33px;
+	width:593px;
+	border-top:1px solid #e7eaec;
+	background-color:#f0f0f0;
+}
+form .nav_b li{
+	float:left;
+	padding-top:6px;
+}
+form .nav_b a{
+	font:12px/14px "microsoft yahei";
+	color:#355976;
+	padding:0 6px;
+	border-right:1px solid #d8d8d8;
+}
+form .nav_b a:hover{
+	text-decoration:underline;
+	color:#5eb5f1;
+}
+form .nav_b .bg{
+	width:16px;
+	height:18px;
+	background:url(../images/icon_sprite.png) -181px -10px;
+	margin:8px 0 0 12px;
+}
+.bansea .banner a{
+	display:block;
+	height:300px;
+}
+/*end-bansea*/
+
+/*flight*/
+.content .flight{
+	width:1190px;
+	margin:9px auto 0;
+	font:14px "microsoft yahei";
+}
+.flight_l{
+	width:990px;
+}
+.flight_l .nav{
+	width:990px;
+	padding-bottom:10px;
+	border-bottom:3px solid #ff5741;
+	background:url(../images/icon_sprite.png) no-repeat -292px -21px;
+}
+.flight_l .nav a{
+	font:bold 16px/16px "microsoft yahei";
+	color:#5f727f;
+	margin-left:40px;
+}
+.flight_l .nav a:hover{
+	color:#ff5741;
+}
+.flight_l .nav a.ever{
+	color:#ff5741;
+	margin-left:0;
+}
+.flight_l .nav .more{
+	font:12px/12px "microsoft yahei";
+	color:#20516f;
+}
+.flight_l .nav_b{
+	width:960px;
+	font:12px/20px "宋体";
+	color:#20516f;
+	padding:11px 0 14px 0;
+}
+.flight_l .nav_b a.go{
+	color:#ff684d;
+}
+.flight_l .nav_b i{
+	width:8px;
+	height:20px;
+	background:url(../images/icon_sprite.png) no-repeat -240px -7px;
+	margin:0  35px 0 5px;
+}
+.flight_l .nav_b .out{
+	height:20px;
+	background-color:#ff684d;
+	padding:0 5px;
+	color:#fff;
+	margin:0 20px 0 15px;
+}
+.flight_l .nav_b .in{
+	color:#20516f;
+}
+.flight_l .pic dt a,.flight_l .pic dt img{
+	display:block;
+	height:121px;
+}
+.flight_l .pic dl{
+	margin:0 10px 10px 0;
+}
+.flight_l .pic dd{
+	width:238px;
+	height:59px;
+	background-color:#ecebeb;
+	padding:0 1px 2px 1px;
+}
+.flight_l .pic div{
+	width:238px;
+	height:59px;
+	background-color:#fff;
+	overflow:hidden;
+}
+.flight_l .pic dd .title{
+	font:14px/14px "microsoft yahei";
+	margin:13px 0 3px 10px;
+}
+.flight_l .pic dd .title a{
+	color:#20516f;
+}
+.flight_l .pic dd span{
+	font:12px "microsoft yahei";
+	color:#20516f;
+	margin-left:10px;
+	display: inline-block;
+	width:60px;
+}
+.flight_l .pic dd span.txt{
+	color:#ff5741;
+	margin-left:4px;
+	display:inline;
+}
+.flight_l .pic dd .price{
+	font:20px "microsoft yahei";
+	color:#ff5741;
+	margin-left:22px;
+	display:inline-block;
+	width:120px;
+	text-align:right;
+}
+.flight_l .pic .nomr,.flight_l .pic div.nomr{
+	margin-right:0;
+}
+.flight_l .pic .nopic{
+	width:238px;
+	height:58px;
+	border:1px solid #ecebeb;
+	margin-right:10px;
+}
+.flight_l .pic .nopic .title a{
+	font:14px/14px "microsoft yahei";
+	color:#20516f;
+	margin-top:14px;
+	padding-left:10px;
+	width:228px;
+}
+.flight_l .pic .nopic span{
+	font:12px/12px "microsoft yahei";
+	color:#5f727f;
+	margin-top:11px;
+}
+.flight_l .pic .nopic span.txt{
+	color:#ff5741;
+	margin-right:10px;
+}
+.flight_l .pic .nopic .price{
+	font:20px "microsoft yahei";
+	color:#ff5741;
+}
+.flight_l .pic .nopic .title_b{
+	padding-left:10px;
+	width:228px;
+}
+.flight_r{
+	width:190px;
+}
+.flight_r .nav{
+	padding-bottom:10px;
+	border-bottom:3px solid #34c5f2;
+	width:190px;
+}
+.flight_r .nav a{
+	font:bold 16px/16px "microsoft yahei";
+	color:#34c5f2;
+}
+.flight_r .nav_t{
+	width:190px;
+	padding:11px 0 14px 0;
+}
+.flight_r .nav_t a{
+	font:12px/12px "microsoft yahei";
+	color:#ff684d;
+	margin-right:8px;
+}
+.flight_r .nav_t i{
+	width:8px;
+	height:20px;
+	background:url(../images/icon_sprite.png) no-repeat -240px -11px;
+}
+.flight_r .detail dt a,.flight_r .detail dt img{
+	float:left;
+	height:72px;
+}
+.flight_r .detail dd{
+	width:110px;
+	margin-left:8px;
+	font:12px/16px "microsoft yahei";
+	color:#20516f;
+}
+.flight_r .detail dd a{
+	color:#20516f;
+}
+.flight_r .detail dd a i{
+	font:12px/12px "microsoft yahei";
+	color:#5f727f;
+	margin-top:22px;
+}
+.flight_r .detail dd a em{
+	font:14px/14px "microsoft yahei";
+	color:#ff5741;
+	margin-top:22px;
+}
+.flight_r .detail_1{
+	padding-bottom:10px;
+	border-bottom:1px solid #ddd;
+	margin-bottom:10px;
+}
+/*end-flight*/
+
+/*-----------------ticket-----------------*/
+.between{
+	width:1190px;
+	height:10px;
+	background:url(../images/bg.jpg);
+	margin-top:30px;
+}
+.ticket{
+	width:1190px;
+	margin:0 auto;
+}
+.ticket_m{
+	height:454px;
+}
+/*公共头部*/
+.public_h{
+	height:40px;
+	border-bottom:4px solid #3ea3ff;
+}
+.public_h a{
+	font:bold 20px/40px "microsoft yahei";
+	color:#3ea3ff;
+	float:left;
+}
+.public_h a.more{
+	font:14px/22px "宋体";
+	color:#3ea3ff;
+	float:right;
+	width:135px;
+	height:22px;
+	text-align: center;
+	margin-top:9px;
+	margin-right:10px;
+	background:url(../images/icon_sprite.png)no-repeat -79px -128px;
+}
+.public_h span{
+	font:bold 14px/14px "宋体";
+	color:#3ea3ff;
+	float:left;
+	margin-top:19px;
+	margin-left:10px;
+}
+/*公共头部end*/
+
+/*left*/
+.ticket_m .left{
+	width:390px;
+}
+.ticket_m .left dl{
+	margin-top:34px;
+}
+.ticket_m .left dl.no1{
+	margin-left:15px;
+}
+.ticket_m .left dl img{
+	margin-right:15px;
+}
+.ticket_m .left a img{
+	display:block;
+}
+.ticket_m .left dd .title{
+	margin-top:12px;
+}
+.ticket_m .left dd .title a{
+	font:bold 20px/20px "microsoft yahei";
+	color:#000;
+}
+.ticket_m .left dd .txt{
+	padding-top:6px;
+}
+.ticket_m .left dd .txt a{
+	font:16px/16px "microsoft yahei";
+	color:#000;
+}
+/*center*/
+.ticket_m .center{
+	margin:0 20px;
+	width:574px;
+}
+.ticket_m .nav_c{
+	margin-top:10px;
+}
+.ticket_m .nav_c a{
+	padding:0 32px;
+	height:28px;
+	font:14px "microsoft yahei";
+	line-height:28px;
+	color:#333333;
+	border:1px solid #44a5fc;
+	margin-left:-1px;
+	transform: skewX(-20deg);
+}
+.ticket_m .nav_c a.click,.ticket_m .nav_c a:hover{
+	background-color:#44a5fc;
+	color:#fff;
+}
+.ticket_m .center_bd dl{
+	width:174px;
+	height:190px;
+	font:12px "microsoft yahei";
+	margin-top:16px;
+	text-align:center;
+	float:left;
+	margin-right:26px;
+}
+.ticket_m .center_bd dl.nomr{
+	margin-right:0;
+}
+.ticket_m .center_bd dd .title{
+	width:174px;
+	text-align:center;
+	font:18px/18px "microsoft yahei";
+	color:#333;
+	margin:17px 0 3px 0;
+}
+.ticket_m .center_bd dd .txt{
+	color:#333;
+	line-height:26px;
+}
+.ticket_m .center_bd dd .cost{
+	color:#ff5741;
+	line-height:26px;
+}
+/*right*/
+.ticket_m .right{
+	width:186px;
+	padding-top:20px;
+}
+.ticket_m .right .nav_r{
+	margin-left:23px;
+	margin-bottom:10px;
+}
+.ticket_m .right .nav_r a{
+	font:14px/22px "microsoft yahei";
+	padding:0 4px;
+	margin-right:12px;
+	color:#333;
+}
+.ticket_m .right .nav_r a.click,.ticket_m .right .nav_r a:hover{
+	color:#3ea3ff;
+	border-bottom:2px solid #3ea3ff;
+}
+.ticket_m .right .rank a.bi{
+	width:186px;
+	height:70px;
+	background-color:#f7f8f8;
+	margin-bottom:5px;
+}
+.ticket_m .right .rank a.bi img{
+	height:60px;
+	margin:5px 8px 0 10px;
+}
+.ticket_m .right .rank a.bi strong{
+	display:block;
+	font:14px/16px "microsoft yahei";
+	color:#333;
+	padding:5px 0 16px 0;
+}
+.ticket_m .right .rank a.bi em{
+	display:block;
+	font:12px/12px "microsoft yahei";
+	color:#ff5741;
+	padding-bottom:3px;
+}
+.ticket_m .right .rank a.bi b{
+	display:block;
+	font:12px/12px "microsoft yahei";
+	color:#999;
+}
+.ticket_m .right .rank a.li strong{
+	float:left;
+	margin-left:4px;
+}
+.ticket_m .right .rank a.li em{
+	float:right;
+	color:#ff5741;
+}
+.ticket_m .right .rank a.li{
+	font:12px/34px "microsoft yahei";
+	color:#333;
+	width:186px;
+}
+.ticket_m .right .rank a.mt{
+	margin-top:-3px;
+}
+/*-----------------end-ticket-----------------*/
+
+/*-----------------vacation-----------------*/
+/*left*/
+.vacation{
+	width:1190px;
+	margin:0 auto;
+}
+.vacation_m{
+	height:474px;
+	padding-bottom:10px;
+}
+.vacation_m .left{
+	width:607px;
+}
+.vacation_m .left .nav{
+	padding-top:10px;
+	padding-left:6px;
+	padding-bottom:16px;
+	width:601px;
+	text-align:center;
+	font:14px "microsoft yahei";
+}
+.vacation_m .left .nav a{
+	line-height:28px;
+	color:#333;
+	padding:0 46px;
+	border:1px solid #44a5fc;
+	margin-left:-1px;
+	transform: skewX(-20deg);
+}
+.vacation_m .left .nav a.click,.vacation_m .left .nav a:hover{
+	color:#fff;
+	background-color:#44a5fc;
+}
+.vacation_m .left .type2 dl{
+	margin-right:22px;
+	float:left;
+	position:relative;
+	width:178px;
+}
+.vacation_m .left .type2 dt a,.vacation_m .left .type2 dt img{
+	display:block;
+	height:126px;
+	width:162px;
+	margin:0 auto;
+}
+.vacation_m .left .type2 dd.black{
+	width:108px;
+	height:28px;
+	border:1px solid #a9a9a9;
+	position:absolute;
+	left:6px;
+	top:112px;
+	text-align:center;
+	transform: skewX(-20deg);
+}
+.vacation_m .left .type2 dd.black a{
+	display:block;
+	width:108px;
+	height:28px;
+	background-color:#000;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	font:14px/28px "microsoft yahei";
+	color:#fff;
+	text-align:center;
+}
+.vacation_m .left .type2 dd.white{
+	width:54px;
+	height:28px;
+	border:1px solid #a9a9a9;
+	position:absolute;
+	left:115px;
+	top:112px;
+	text-align:center;
+	transform: skewX(-20deg);
+}
+.vacation_m .left .type2 dd.white a{
+	display:block;
+	width:54px;
+	height:28px;
+	background-color:#fff;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	font:14px/28px "microsoft yahei";
+	color:#ff5741;
+	text-align:center;
+}
+.vacation_m .left .type2 dd .title{
+	height:32px;
+	width:178px;
+	margin-top:25px;
+}
+.vacation_m .left .type2 dd .title a{
+	font:14px/14px "microsoft yahei";
+	color:#333;
+}
+.vacation_m .left .type2 dd .txt{
+	height:26px;
+	width:178px;
+	margin-bottom:3px;
+	text-align:center;
+	font:12px/28px "microsoft yahei";
+	color:#999;
+}
+/*center*/
+.vacation_m .center{
+	width:390px;
+	padding-left:3px;
+}
+.vacation_m .center .ml4{
+	margin-left:4px;
+}
+.vacation_m .center .banner img{
+	display:block;
+}
+.vacation_m .center .menu{
+	margin-top:18px;
+	height:133px;
+	width:192px;
+	border-left:1px solid #8dc9ff;
+}
+.vacation_m .center .menu h3{
+	padding-left:11px;
+	border-left:3px solid #3ea3ff;
+	font:bold 14px/16px "宋体";
+	color:#3ea3ff;
+	width:192px;
+	margin-left:-1px;
+}
+.vacation_m .center .menu ul{
+	width:64px;
+	float:left;
+	text-align:center;
+}
+.vacation_m .center .menu li{
+	float:left;
+	margin-top:19px;
+}
+.vacation_m .center .menu li a{
+	float:left;
+	width:64px;
+	font:14px/20px "宋体";
+	color:#355976;
+}
+/*right*/
+.vacation_m .right{
+	padding:10px 0 0 10px;
+	width:180px;
+}
+.vacation_m .right h3{
+	font:bold 12px/14px "宋体";
+	color:#3ea3ff;
+	border-left:3px solid #3ea3ff;
+	padding-left:10px;
+	margin-bottom:10px;
+}
+.vacation_m .right ul li{
+	margin-top:9px;
+}
+.vacation_m .right ul span{
+	width:154px;
+	height:42px;
+	margin-left:6px;
+	font:14px/21px "microsoft yahei";
+	color:#333;
+}
+.vacation_m .right ul i{
+	font:12px/14px "microsoft yahei";
+	color:#ff5741;
+	margin-top:-16px;
+}
+.vacation_m .right ul b{
+	width:20px;
+	height:20px;
+	margin-top:8px;
+	background:url(../images/icon_sprite.png) no-repeat -258px -165px;
+}
+.vacation_m .right ul em{
+	width:18px;
+	text-align:center;
+	font:bold 14px/20px "宋体";
+	font-style:italic;
+	color:#fff;
+}
+/*-----------------end-vacation-----------------*/
+
+/*-----------------HOTEL-----------------*/
+/*left*/
+.content .hotel{
+	width:1190px;
+	margin:0 auto;
+	height:528px;
+}
+.hotel_bd .left{
+	width:390px;
+}
+.hotel_bd .left a img{
+	display:block;
+}
+.hotel_bd .left .menu{
+	margin-top:18px;
+	border-left:1px solid #8dc9ff;
+	height:133px;
+	width:192px;
+}
+.hotel_bd .left div.mr4{
+	margin-left:4px;
+}
+.hotel_bd .left .menu ul{
+	width:64px;
+}
+.hotel_bd .left .menu ul li{
+	margin-top:19px;
+}
+.hotel_bd .left .menu ul a{
+	width:64px;
+	font:14px/20px "宋体";
+	color:#355976;
+	text-align:center;
+}
+.hotel_bd .left .menu h3{
+	font:bold 14px/16px "宋体";
+	width:182px;
+	color:#3ea3ff;
+	padding-left:10px;
+	border-left:3px solid #3ea3ff;
+	margin-left:-1px;
+}
+/*right*/
+.hotel_bd .right{
+	width:780px;
+	padding-top:10px;
+}
+.hotel_bd .right .nav{
+	margin-left:7px;
+	margin-bottom:15px;
+}
+.hotel_bd .right .nav a{
+	font:14px/28px "microsoft yahei";
+	color:#333;
+	text-align:center;
+	width:108px;
+	height:28px;
+	border:1px solid #44a5fc;
+	margin-left:-1px;
+	transform:skewX(-20deg);
+}
+.hotel_bd .right .nav a.click,.hotel_bd .right .nav a:hover{
+	background-color:#44a5fc;
+	color:#fff;
+}
+.hotel_bd .right .menu{
+	height:105px;
+	width:180px;
+	padding:0 10px;
+	border-left:1px solid #e1e1e1;
+}
+.hotel_bd .right div.w2{
+	width:270px;
+}
+.hotel_bd .right div.w237{
+	width:237px;
+}
+.hotel_bd .right div.w2 h3{
+	width:190px;
+}
+.hotel_bd .right div.w237 h3{
+	width:248px;
+}
+.hotel_bd .right .menu h3{
+	font:14px/14px "microsoft yahei";
+	width:178px;
+	color:#3ea3ff;
+	padding-left:10px;
+	border-left:3px solid #e1e1e1;
+	margin-left:-11px;
+}
+.hotel_bd .right .menu ul{
+	margin-top:10px;
+	border-top:1px solid #e1e1e1;
+	padding-top:5px;
+	height:75px;
+	width:90px;
+}
+.hotel_bd .right div.w237 ul{
+	width:79px;
+}
+.hotel_bd .right .menu li{
+	width:90px;
+}
+.hotel_bd .right div.w237 li{
+	width:79px;
+}
+.hotel_bd .right .menu li a{
+	width:90px;
+	font:12px/24px "microsoft yahei";
+	color:#000;
+	text-align:center;
+}
+.hotel_bd .right div.w237 li a{
+	width:79px;
+}
+.hotel_bd .right .detail{
+	margin-top:15px;
+}
+.hotel_bd .right .detail dl{
+	margin:10px 20px 0 0;
+}
+.hotel_bd .right .detail dt{
+	height:88px;
+	width:140px;
+	margin-right:14px;
+}
+.hotel_bd .right .detail dd{
+	padding-top:10px;
+	width:211px;
+}
+.hotel_bd .right .detail dd strong{
+	font:18px/18px "microsoft yahei";
+	color:#333;
+	width:211px;
+}
+.hotel_bd .right .detail dd b{
+	font:14px/14px "microsoft yahei";
+	margin-top:13px;
+	color:#333;
+	width:211px;
+}
+.hotel_bd .right .detail dd em{
+	font:14px/14px "microsoft yahei";
+	margin-top:13px;
+	color:#ff5741;
+}
+.hotel_bd .right .detail dd i{
+	font:12px/12px "microsoft yahei";
+	color:#999;
+	margin-top:15px;
+}
+
+/*-----------------END-HOTEL-----------------*/
+
+/*--------------------INN--------------------*/
+.content .inn{
+	width:1190px;
+	margin:0 auto;
+	height:508px;
+}
+.inn_bd .left{
+	padding-top:10px;
+	width:800px;
+}
+.inn_bd .left .nav{
+	margin-left:7px;
+}
+.inn_bd .left .nav a{
+	width:108px;
+	height:28px;
+	border:1px solid #44a5fc;
+	margin-left:-1px;
+	text-align:center;
+	font:14px/28px "microsoft yahei";
+	color:#333;
+	transform:skewX(-20deg);
+}
+.inn_bd .left .nav .click,.inn_bd .left .nav a:hover{
+	background-color:#44a5fc;
+	color:#fff;
+}
+.inn_bd .left .menu{
+	height:171px;
+	border-left:1px solid #e1e1e1;
+	margin:20px 15px 15px 14px;
+}
+.inn_bd .left .menu h3{
+	font:14px/14px "microsoft yahei";
+	color:#3ea3ff;
+	padding-left:10px;
+	border-left:3px solid #e1e1e1;
+	margin-left:-1px;
+	margin-bottom:6px;
+}
+.inn_bd .left .menu ul,.inn_bd .left .menu ul a{
+	width:88px;
+	text-align:center;
+}
+.inn_bd .left .menu ul li{
+	width:88px;
+	margin-top:10px;
+}
+.inn_bd .left .menu ul a{
+	font:14px/20px "microsoft yahei";
+	color:#000;
+}
+.inn_bd .left .menu .line{
+	width:151px;
+	height:1px;
+	background-color:#e1e1e1;
+	margin-left:10px;
+}
+.inn_bd .left .detail dl{
+	margin:16px 24px 0 0;
+	width:172px;
+	height:192px;
+}
+.inn_bd .left .detail dl dt{
+	height:126px;
+	width:172px;
+}
+.inn_bd .left .detail dl dt img{
+	margin-left:5px;
+}
+.inn_bd .left .detail dd strong{
+	font:18px/18px "microsoft yahei";
+	color:#333;
+	text-align:center;
+	width:172px;
+	margin-top:17px;
+}
+.inn_bd .left .detail dd span{
+	font:12px/12px "microsoft yahei";
+	color:#333;
+	margin-top:12px;
+}
+.inn_bd .left .detail dd em{
+	font:12px/12px "microsoft yahei";
+	color:#ff5741;
+	margin-top:11px;
+}
+/*right*/
+.inn_bd .right{
+	width:390px;
+	height:454px;
+}
+.inn_bd .right img{
+	display:block;
+}
+.inn_bd .right .menu{
+	margin-top:20px;
+	width:390px;
+	border-left:1px solid #e1e1e1;
+}
+.inn_bd .right .menu h3{
+	float:left;
+	width: 380px;
+	font:14px/14px "宋体";
+	color:#3ea3ff;
+	padding-left:10px;
+	border-left:3px solid #e1e1e1;
+}
+.inn_bd .right .menu ul{
+	float:left;
+	width:64px;
+}
+.inn_bd .right .menu ul li{
+	float:left;
+	margin-top:10px;
+}
+.inn_bd .right .menu ul a{
+	float:left;
+	font:14px/20px "宋体";
+	color:#000;
+	width:64px;
+	text-align:center;
+}
+/*--------------------end-INN--------------------*/
+
+/*--------------------Flight--------------------*/
+.content .flight2{
+	width:1190px;
+	margin:0 auto;
+	height:668px;
+}
+.flight_bd .left{
+	width:390px;
+	height:614px;
+}
+.flight_bd .left .banner img{
+	display: block;
+}
+.flight_bd .left .banner .end{
+	margin-left:-38px;
+}
+.flight_bd .left ul{
+	position:relative;
+}
+.flight_bd .left ul a{
+	width:195px;
+	height:58px;
+	font:18px/58px "宋体";
+	color:#333;
+}
+.flight_bd .left ul i{
+	width:28px;
+	height:26px;
+	margin:18px 6px 0 42px;
+}
+.flight_bd .left ul i.bg1{
+	background:url(../images/icon_sprite.png) no-repeat 0 -231px;
+}
+.flight_bd .left ul i.bg2{
+	background:url(../images/icon_sprite.png) no-repeat -44px -231px;
+}
+.flight_bd .left ul i.bg3{
+	background:url(../images/icon_sprite.png) no-repeat -84px -231px;
+}
+.flight_bd .left ul i.bg4{
+	background:url(../images/icon_sprite.png) no-repeat -122px -231px;
+}
+.flight_bd .left ul li.line1{
+	width:340px;
+	height:1px;
+	background-color:#f1f1f1;
+	position:absolute;
+	left:30px;
+	top:58px;
+}
+.flight_bd .left ul li.line2{
+	width:1px;
+	height:106px;
+	background-color:#f1f1f1;
+	position:absolute;
+	left:195px;
+	top:5px;
+}
+.flight_bd .left .banner2{
+	width:390px;
+}
+.flight_bd .left .banner2 img{
+	display:block;
+}
+/*right*/
+.flight_bd .right{
+	width:776px;
+	padding:0 4px 0 0;
+}
+.flight_bd .right .title{
+	margin-bottom:4px;
+	margin-top:10px;
+}
+.flight_bd .right .title h3{
+	font:bold 14px/14px "microsoft yahei";
+	color:#3ea3ff;
+	padding-left:10px;
+	border-left:3px solid #3ea3ff;
+	margin-top:9px;
+}
+.flight_bd .right .title .txt{
+	border:1px solid #e1e1e1;
+	margin-left:115px;
+}
+.flight_bd .right .title .txt input{
+	width:110px;
+	height:26px;
+	padding-left:10px;
+	font:14px/26px "宋体";
+	color:#000;
+	outline:none;
+}
+.flight_bd .right .title .chouse1{
+	border:1px solid #e1e1e1;
+	margin-left:-1px;
+}
+.flight_bd .right .title .chouse1 select{
+	width:80px;
+	height:26px;
+	font:14px/26px "宋体";
+	color:#000;
+	outline:none;
+	vertical-align:top;
+}
+.flight_bd .right .title .chouse2{
+	border:1px solid #e1e1e1;
+	margin-left:9px;
+}
+.flight_bd .right .title .chouse2 select{
+	width:130px;
+	height:26px;
+	font:14px/26px "宋体";
+	color:#000;
+	outline:none;
+	vertical-align:top;
+}
+.flight_bd .right .title .more a{
+	width:135px;
+	height:22px;
+	background:url(../images/icon_sprite.png) no-repeat -205px -231px;
+	margin-top:3px;
+	font:14px/22px "microsoft yahei";
+	color:#3ea3ff;
+	text-align:center;
+	margin-left:100px;
+}
+.flight_bd .right .menu ul{
+	width:97px;
+	height:108px;
+	border-bottom:1px solid #e1e1e1;
+	text-align:center;
+}
+.flight_bd .right .menu div.nob ul{
+	border-bottom:none;
+}
+.flight_bd .right .menu ul a{
+	width:97px;
+}
+.flight_bd .right .menu ul strong{
+	width:97px;
+	font:14px/14px "microsoft yahei";
+	color:#333;
+	margin-top:18px;
+}
+.flight_bd .right .menu ul em{
+	width:97px;
+	font:14px/14px "microsoft yahei";
+	color:#ff5741;
+	margin-top:16px;
+}
+.flight_bd .right .menu ul i{
+	width:97px;
+	font:14px/14px "microsoft yahei";
+	color:#333;
+	margin-top:17px;
+}
+.flight_bd .right .icon{
+	width:769px;
+	height:80px;
+	margin-top:16px;
+}
+.flight_bd .right .icon .pre,.flight_bd .right .icon .next{
+	width:26px;
+	height:78px;
+	border:1px solid #ddd;
+}
+.flight_bd .right .icon .pre i{
+	margin:34px 0 0 10px;
+	border: 5px solid transparent;
+	border-right-color: #d6d6d6;
+	border-left: none #d6d6d6;
+}
+.flight_bd .right .icon .next i{
+	margin:34px 0 0 10px;
+	border: 5px solid transparent;
+	border-right: none #d6d6d6;
+	border-left-color: #d6d6d6;
+}
+.flight_bd .right .icon ul{
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+.flight_bd .right .icon li{
+	width:101px;
+	height:78px;
+	border-right:1px solid #f4f4f4;
+}
+.flight_bd .right .icon li.bdn{
+	border-right:none;
+}
+.flight_bd .right .icon li span{
+	width:54px;
+	height:54px;
+	margin-left:23px;
+	margin-top:12px;
+	background:url(../images/icon_sprite.png) no-repeat;
+}
+.flight_bd .right .icon li.icon1 span{
+	background-position:0 -281px;
+}
+.flight_bd .right .icon li.icon2 span{
+	background-position:-54px -281px;
+}
+.flight_bd .right .icon li.icon3 span{
+	background-position:-108px -281px;
+}
+.flight_bd .right .icon li.icon4 span{
+	background-position:-162px -281px;
+}
+.flight_bd .right .icon li.icon5 span{
+	background-position:-216px -281px;
+}
+.flight_bd .right .icon li.icon6 span{
+	background-position:-270px -281px;
+}
+.flight_bd .right .icon li.icon7 span{
+	background-position:0 -335px;
+}
+/*--------------------END-Flight--------------------*/

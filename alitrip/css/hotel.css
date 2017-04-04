@@ -1,0 +1,601 @@
+/*header弹出导航样式*/
+.header .h_nav_b{
+	width:950px;
+	height:26px;
+	padding:6px 0 0 240px;
+	background-color:#e4f4ff;
+	margin: -15px auto 8px;
+	position:relative;
+}
+.header .h_nav_b a{
+	font:12px/21px "宋体";
+	color:#23516e;
+	padding:0 6px 0 5px;
+	height:21px;
+	border-radius:3px;
+}
+.header .h_nav_b a:hover{
+	background-color:#446681;
+	color:#fff;
+}
+.header .h_nav_b span{
+	font:14px/14px "";
+	color:#88afc8;
+	margin:3px 16px 0;
+}
+.header .h_nav_b i{
+	width:9px;
+	height:11px;
+	background:url(../images/icon_sprite.png) no-repeat 0 -428px;
+	position:absolute;
+	left:360px;
+	top:-4px;
+}
+/*header弹出导航样式-------END*/
+
+/*---------------------------------------Content 部分-------------------------------------*/
+.content{
+	width:1190px;
+	margin:0 auto;
+}
+/*输入框*/
+.content .bansea .searcher{
+	width:488px;
+	height:318px;
+	border:1px solid #d2d2d2;
+}
+.content .bansea .searcher ul{
+	width:100%;
+	height:42px;
+	border-bottom:1px solid #e3e6ea;
+}
+.content .bansea .searcher ul  li{
+	font:15px/39px "";
+	color:#dcdde0;
+	position:relative;
+}
+.content .bansea .searcher ul  li:first-child{
+	margin-left:15px;
+}
+.content .bansea .searcher ul a{
+	font:14px/38px "microsoft yahei";
+	color:#13334d;
+	padding:0 12px;
+	margin-top:2px;
+}
+.content .bansea .searcher ul a:hover{
+	border-bottom:3px solid #5eb5f1;	
+}
+.content .bansea .searcher ul i{
+	width:11px;
+	height:12px;
+	background:url(../images/icon_sprite.png) no-repeat -12px -428px;
+	position:absolute;
+	right:0;
+	top:8px;
+}
+.content .bansea .searcher form{
+	width:448px;
+	height:265px;
+	padding:10px 20px 0;
+	background:url(../images/searcher_bg.png) no-repeat 16px 168px;
+	position:relative;
+}
+.content .bansea .searcher form p{
+	width:210px;
+}
+.content .bansea .searcher form label{
+	font:12px/20px "宋体";
+	color:#73787f;
+}
+.content .bansea .searcher form input{
+	width:204px;
+	height:28px;
+	border:1px solid #c7d1e4;
+	border-radius:3px;
+	padding-left:4px;
+	color:#73787f;
+	outline:none;
+}
+.content .bansea .searcher form .bottom{
+	margin-top:10px;
+}
+.bansea .searcher form .top{
+	width:100%;
+}
+.bansea .searcher form input{
+	font:12px/28px "microsoft yahei"
+}
+.bansea .searcher form .bottom{
+	width:100%;
+}
+.bansea .searcher form b{
+	width:20px;
+	height:15px;
+	margin-left:5px;
+}
+.bansea .searcher form .bottom a{
+	font:12px/15px "microsoft yahei";
+	color:#a1a1a1;
+}
+.bansea .searcher form .tom,.bansea .searcher form .acq{
+	margin-left:-54px;
+	margin-top:8px;
+}
+.bansea .searcher form .tom b{
+	background:url(../images/icon_sprite.png) no-repeat -30px -426px;
+}
+.bansea .searcher form .acq b{
+	background:url(../images/icon_sprite.png) no-repeat -60px -426px;
+}
+.bansea .searcher form .btn{
+	width:100%;
+	text-align:right;
+}
+.bansea .searcher form .btn input{
+	width:136px;
+	height:40px;
+	background-color:#63b8f0;
+	border-radius:3px;
+	border:0;
+	font:bold 16px/38px "宋体";
+	color:#fff;
+	margin-top:28px;
+	cursor:pointer;
+}
+.bansea .searcher form a.txt{
+	font:12px/12px "";
+	color:#58b1f3;
+	margin-top:32px;
+	margin-right:10px;
+}
+.bansea .searcher form div.txt{
+	width:488px;
+	height:28px;
+	background-color:#f1f2f6;
+	border-top:1px solid #e3e6eb;
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+.bansea .searcher form div.txt a{
+	font:12px/28px "宋体";
+	color:#13334d;
+}
+.bansea .searcher form div.txt b{
+	width:13px;
+	height:19px;
+	background:url(../images/icon_sprite.png) no-repeat -90px -426px;
+	margin:4px 7px 0 18px;
+}
+.bansea .icon{
+	width:699px;
+	height:49px;
+	padding-top:14px;
+	border:1px solid #d2d2d2;
+	border-left:none;
+	background:url(../images/form_banner2.jpg) no-repeat 20px 10px;
+}
+.bansea .icon li{
+	border-left:1px solid #c7d3df;
+	height:38px;
+	font:12px/12px "microsoft yahei";
+	color:#3b5d84;
+	padding:0 32px;
+	text-align:center;
+}
+.bansea .icon li:first-child{
+	border:0;
+}
+.bansea .icon li b{
+	width:15px;
+	height:15px;
+	background:url(../images/icon_sprite.png) no-repeat -117px -426px;
+	margin-left:30px;
+}
+.bansea .icon li p{
+	width:100%;
+	text-align:center;
+	white-space:nowrap;
+	margin-top:8px;
+}
+/*future-hotel*/
+.content .future{
+	width: 1190px;
+	height: 50px;
+	background:url(../images/bansea_bg2.jpg);
+	margin: 0 auto 20px;
+}
+/*double*/
+.double .today{
+	width:290px;
+}
+.double .today .title{
+	text-indent:8px;
+	width:290px;
+}
+.double .today .title h2{
+	font:bold 16px/36px "宋体";
+	color:#ff684d;
+	border-bottom:2px solid #ff684d;	
+}
+.double .today .title p{
+	font:12px/45px "宋体";
+	color:#13334d;
+}
+.double .today dl dt a{
+	height:218px;
+}
+.double .today dl dt img{
+	display:block;
+}
+.double .today dl .bg{
+	height:42px;
+	background-color:#ddd;
+}
+.double .today dl .txt{ 
+	background-color:#ff684d;
+	padding:5px 8px 3px;
+	width:274px;
+}
+.double .today dl .txt a{
+	font:14px/21px "宋体";
+	color:#fff;
+}
+.double .today dl .sale{
+	height:35px;
+	border:1px solid #ddd;
+	border-top:0;
+	padding:15px 0 0 7px;
+	width:281px;
+}
+.double .today dl .sale em{
+	font:22px/22px "microsoft yahei";
+	color:#ff5741;
+}
+.double .today dl .sale b{
+	font:12px/12px "宋体";
+	color:#909090;
+	margin-top:10px;
+	margin-left:10px;
+}
+.double .today dl .sale span{
+	font:12px/12px "microsoft yahei";
+	color:#909090;
+	text-decoration:line-through;
+	margin:10px 0 0 5px;
+}
+.double .today dl .sale i{
+	font:12px/12px "宋体";
+	color:#2d4b5f;
+	margin:9px 9px 0 0;
+}
+.double .group{
+	width:890px;
+}
+.double .group .title{
+	width:890px;
+}
+.double .group .title h2{
+	font:bold 16px/36px "宋体";
+	color:#ff684d;
+	border-bottom:2px solid #ff684d;
+	text-indent:8px;
+}
+.double .group .title p{
+	padding:12px 0 0 0;
+}
+.double .group .title p a{
+	font:12px/22px "宋体";
+	color:#2d4b5f;
+	padding:0 11px 0 10px;
+	margin:0 5px;
+}
+.double .group .title p span.txt a:hover{
+	background-color:#15bcbe;
+	color:#fff;
+}
+.double .group .title p a:first-child{
+	margin-left:13px;
+}
+.double .group .title .more a{
+	margin:0;
+}
+.double .group .pic-txt dl{
+	width:215px;
+	margin:11px 10px 0 0;
+	position:relative;
+	float:left;
+}
+.double .group .pic-txt dt img{
+	display:block;
+	width:215px;
+	height:145px;
+}
+.double .group .pic-txt dd.to{
+	width: 215px;
+	height:28px;
+	position:absolute;
+	left:0;
+	top:117px;
+}
+.double .group .pic-txt dd.to b{
+	display:block;
+	width:215px;
+	height:28px;
+	background-color:#000;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	position:absolute;
+	left:0;
+	top:0;
+}
+.double .group .pic-txt dd.to a{
+	width:215px;
+	height:28px;
+	font:12px/28px "宋体";
+	color:#fff;
+	text-indent:8px;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+}
+.double .group .pic-txt dd.sale{
+	width:197px;
+	height:20px;
+	padding:9px 9px 0 7px;
+	border:1px solid #ddd;
+	border-top:0;
+}
+.double .group .pic-txt dd.sale em{
+	font:bold 14px/14px "microsoft yahei";
+	color:#ff5741;
+}
+.double .group .pic-txt dd.sale b{
+	font:12px/12px "宋体";
+	color:#909090;
+	margin:1px 5px 0 6px;
+}
+.double .group .pic-txt dd.sale span{
+	font:10px/10px "microsoft yahei";
+	color:#909090;
+	text-decoration:line-through;
+	margin-top:2px;
+}
+.double .group .pic-txt dd.sale i{
+	font:12px/12px "宋体";
+	color:#2d4b5f;
+	margin-top:1px;
+}
+.double .group .pic-txt .mr0{
+	margin-right:0;
+}
+/*end-double*/
+
+/*give*/
+.content .give{
+	width:1190px;
+}
+.content .give h2{
+	font:bold 16px/36px "宋体";
+	color:#fdba00;
+	text-indent:8px;
+	border-bottom:2px solid #fdba00;
+	margin:16px 0;
+}
+.content .give li{
+	width:285px;
+	margin-left:16px;
+}
+.content .give li img{
+	display:block;
+	margin-bottom: 11px;
+}
+.content .give li:first-child{
+	margin-left:0;
+}
+.content .give li p a{
+	height:30px;
+	width:285px;
+}
+.content .give li span{
+	font:12px/30px "宋体";
+	color:#3f3f3f;
+}
+.content .give li em{
+	font:bold 14px/30px "microsoft yahei";
+	color:#ff5741;
+}
+/*end-give*/
+
+/*internal*/
+.internal .title{
+	width:1190px;
+	margin-top:6px
+}
+.internal .title h2{
+	font:bold 16px/36px "宋体";
+	color:#3fb3fb;
+	border-bottom:2px solid #3fb3fb;
+	margin-bottom:12px;
+	text-indent:8px;
+}
+.internal .title p span{
+	font:12px/22px "宋体";
+	color:#13334d;
+	padding:0 8px;
+}
+.internal .title p a{
+	font:12px/22px "宋体";
+	color:#13334d;
+	padding:0 10px;
+	margin-left:10px;
+}
+.internal .title p a:hover{
+	background-color:#3fb3fb;
+	color:#fff;
+}
+.internal .title p a:first-child{
+	margin-left:0;
+}
+.internal .title .more{
+	font:12px/22px "宋体";
+	color:#13334d;
+	margin-right:9px;
+}
+.internal .pic-txt dl{
+	width:230px;
+	float:left;
+	margin:10px 10px 0 0;
+}
+.internal .pic-txt dl dt img{
+	display:block;
+}
+.internal .pic-txt dl.mr0{
+	margin-right:0;
+}
+.internal .pic-txt dl dd{
+	height:70px;
+	border:1px solid #ddd;
+	border-top:0;
+	padding:0 8px;
+	width:212px;
+}
+.internal .pic-txt dl dd a{
+	width:100%;
+}
+.internal .pic-txt dl dd strong{
+	font:14px/38px "microsoft yahei";
+	color:#2d4b5f;
+	width:100%;
+}
+.internal .pic-txt dl dd em{
+	font:26px/26px "microsoft yahei";
+	color:#ff5741;
+}
+.internal .pic-txt dl dd i{
+	font:12px/30px "microsoft yahei";
+	color:#2d4b5f;
+}
+/*abroad*/
+.abroad .title{
+	margin-top:16px
+}
+.abroad .title h2{
+	color:#15bcbe;
+	border-bottom:2px solid #15bcbe;
+}
+.abroad .title p a:hover{
+	background-color:#15bcbe;
+	color:#fff;
+}
+/*list*/
+.list .title{
+	width:1190px;
+	margin:16px 0 12px 0;
+	border-bottom:2px solid #af84d7;
+}
+.list .title h2{
+	font:bold 16px/36px "宋体";
+	color:#af84d7;
+	text-indent:8px;
+}
+.list .title p a{
+	font:12px/22px "宋体";
+	color:#2d4b5f;
+	padding:0 10px;
+	margin-left:9px;
+	margin-top:7px;
+}
+.list .title p a:hover{
+	color:#fff;
+	background-color:#af84d6;
+}
+.list .area1{
+	width:1190px;
+	margin-bottom:12px;
+}
+.list .area1 .t_title{
+	width:38px;
+	height:206px;
+	background-color:#af84d7;
+	font:14px/38px "宋体";
+	color:#fff;
+	text-align:center;
+	writing-mode: vertical-rl;
+	writing-mode: bt-rl\9;
+	letter-spacing:11px;
+}
+.list .area1 .txt{
+	width:1151px;
+	height:204px;
+	border:1px solid #ddd;
+	border-left:0;
+}
+.list .area1 .txt li{
+	width:267px;
+	height:89px;
+	padding:9px 0 0 20px;
+}
+.list .area1 .txt li h2{
+	font:bold 14px/24px "microsoft yahei";
+	color:#3f3f3f;
+}
+.list .area1 .txt li p a{
+	font:12px/22px "microsoft yahei";
+	color:#666;
+	margin-right:16px;
+	white-space:nowrap;
+}
+
+.list .area2{
+	margin-bottom:16px;
+}
+.list .area2 .t_title{
+	height:86px;
+}
+.list .area2 .txt{
+	height:84px;
+}
+/*seller*/
+.seller h2{
+	font:bold 16px/36px "宋体";
+	color:#475d6b;
+	text-indent:9px;
+}
+.seller li{
+	border:1px solid #dddddd;
+	border-left:0;
+	margin-bottom:26px;
+}
+.seller li.pre{
+	border:1px solid #dddddd;
+	width:38px;
+}
+.seller li.pre img{
+	margin:29px 0 0 14px;
+}
+.seller li.next img{
+	margin:29px 0 0 14px;
+}
+.seller li.next{
+	width:38px;
+}
+.seller li a{
+	width:100px;
+	height:78px;
+}
+.seller li a img{
+	display:block;
+}
+.seller .banner img{
+	display:block;
+}
+.seller .banner a{
+	margin-left:10px;
+	margin-bottom:4px;
+}
+.seller .banner a:first-child{
+	margin-left:0;
+}
