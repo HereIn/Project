@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            .red{
+                color:red;
+            }
+            .fontSize{
+                font-size: 30px;
+            }
+        </style>
+        <script src="./vue.js"></script>
+    </head>
+    <body>
+        <div id="demo" class="fontSize" :class="{red:addClass}">
+            {{message}}
+        </div>
+
+        <div id="demo-01">
+            <p v-for="todo in todos">{{todo.text}}</p>
+        </div>
+        <script>
+            // 数据
+            let data={
+                message:"hello vue!",
+                id:"123",
+                addClass:"true",
+            }
+
+            // vm实例
+            var vm = new Vue({
+                el:"#demo",
+                data:data
+            });
+
+            new Vue({
+                el:'#demo-01',
+                data:{
+                    todos:[
+                        {text:'学习 javascript'},
+                        {text:'学习vue'},
+                        {text:'xuexie'}]
+                }
+            })
+        </script>
+    </body>
+</html>

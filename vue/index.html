@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <script src="./vue.js"></script>
+    </head>
+    <body>
+        <!-- 模板 -->
+        <div id="demo">
+            <input type="text" v-model="message"/>
+            <p v-on:click="clickHandle">{{message}}</p>
+        </div>
+        <div id="app">
+            <div v-bind:title="message">鼠标悬停</div>
+            <p v-if="seen">现在你看到我了</p>
+        </div>
+        <script>
+            //核心 Object.defindProperty(),中的setter/getter
+
+            //数据
+            let data = {
+                message:"hello vue" + new Date(),
+                seen:false
+            }
+
+            //vm实例
+            // var vm = new Vue({
+            //     el:"#demo", //挂载元素
+            //     data:data,  //代理数据
+            //     methods:{  //定义方法
+            //         clickHandle(){
+            //             alert("click")
+            //         }
+            //     }
+            // });
+
+            new Vue({
+                el: '#app',
+                data: data
+            })
+
+        </script>
+    </body>
+</html>
